@@ -1,5 +1,6 @@
 # Personal Admin Footer
 
+* __Requires at least:__ WordPress 2.3
 * __Tested up to:__ WordPress 3.5.1
 * __Stable version:__ [1.0](http://downloads.wordpress.org/plugin/personal-admin-footer.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit-license.php)
