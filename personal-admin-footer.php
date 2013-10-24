@@ -9,6 +9,7 @@
  * Version:     1.0
  * Licence:     MIT
  * License URI: http://opensource.org/licenses/MIT
+ * Text Domain: personal-footer-text
  */
 
 /**
@@ -23,7 +24,7 @@ function personal_admin_footer( $footer_text ) {
 
 		/* Define the current footer text and the new footer text */
 		$old_text = __( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' );
-		$new_text = __( 'Thank you for visiting <a href="%1$s">%2$s</a>.' );
+		$new_text = __( 'Thank you for visiting <a href="%1$s">%2$s</a>.', 'personal-footer-text' );
 
 		/* Add the site name and link to the new footer text */
 		$new_text = sprintf ( $new_text, get_home_url(), get_bloginfo( 'name' ) );
