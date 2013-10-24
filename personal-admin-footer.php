@@ -2,23 +2,36 @@
 
 /**
  * Plugin Name: Personal Admin Footer
- * Plugin URI: http://bungeshea.com/plugins/personal-admin-footer/
+ * Plugin URI:  http://bungeshea.com/plugins/personal-admin-footer/
  * Description: Changes the default 'Thank you for creating with WordPress' in your footer area to a more personal 'Thank you for visiting My Site' on all admin pages except the Network Admin.
- * Author: Shea Bunge
- * Author URI: http://bungeshea.com
- * Version: 1.0
- * Licence: MIT
- * License URI: http://opensource.org/licenses/mit-license.php
+ * Author:      Shea Bunge
+ * Author URI:  http://bungeshea.com
+ * Version:     1.0
+ * Licence:     MIT
+ * License URI: http://opensource.org/licenses/MIT
  */
 
+/**
+ * Replace the admin footer text
+ * @param  string $footer_text The current footer text
+ * @return string              The new footer text
+ */
 function personal_admin_footer( $footer_text ) {
-	if( ! is_network_admin() ) {
-		$footer_text = str_replace(
-			__( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' ),
-			sprintf ( __( 'Thank you for visiting <a href="%1$s">%2$s</a>.' ), get_home_url(), get_bloginfo( 'name' ) ),
-			$footer_text
-		);
+
+	/* Don't change the footer text in the network admin */
+	if ( ! is_network_admin() ) {
+
+		/* Define the current footer text and the new footer text */
+		$old_text = __( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' );
+		$new_text = __( 'Thank you for visiting <a href="%1$s">%2$s</a>.' );
+
+		/* Add the site name and link to the new footer text */
+		$new_text = sprintf ( $new_text, get_home_url(), get_bloginfo( 'name' ) );
+
+		/* Replace the old text with the new text */
+		$footer_text = str_replace( $old_text, $new_text, $footer_text );
 	}
+
 	return $footer_text;
 }
 
