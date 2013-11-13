@@ -9,7 +9,8 @@
  * Version:     1.0
  * Licence:     MIT
  * License URI: http://opensource.org/licenses/MIT
- * Text Domain: personal-footer-text
+ * Text Domain: personal-admin-footer
+ * Domain Path: /languages
  */
 
 /**
@@ -24,7 +25,7 @@ function personal_admin_footer( $footer_text ) {
 
 		/* Define the current footer text and the new footer text */
 		$old_text = __( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' );
-		$new_text = __( 'Thank you for visiting <a href="%1$s">%2$s</a>.', 'personal-footer-text' );
+		$new_text = __( 'Thank you for visiting <a href="%1$s">%2$s</a>.', 'personal-admin-footer' );
 
 		/* Add the site name and link to the new footer text */
 		$new_text = sprintf ( $new_text, get_home_url(), get_bloginfo( 'name' ) );
@@ -37,3 +38,10 @@ function personal_admin_footer( $footer_text ) {
 }
 
 add_filter( 'admin_footer_text', 'personal_admin_footer' );
+
+/**
+ * Load the plugin textdomain
+ */
+function load_personal_admin_footer_textdomain() {
+	load_plugin_textdomain( 'personal-admin-footer', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
+}
