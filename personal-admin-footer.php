@@ -45,3 +45,5 @@ add_filter( 'admin_footer_text', 'personal_admin_footer' );
 function load_personal_admin_footer_textdomain() {
 	load_plugin_textdomain( 'personal-admin-footer', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/' );
 }
+
+add_action( 'plugins_loaded', 'load_personal_admin_footer_textdomain' );
