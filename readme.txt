@@ -4,7 +4,7 @@ Donate link: http://bungeshea.com/donate/
 Tags: admin, footer, dashboard
 Requires at least: 2.8
 Tested up to: 3.9.1
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -32,6 +32,10 @@ Personal Admin Footer will automagically pull your site name and home URL addres
 1. The footer text displaying in the dashboard
 
 == Changelog ==
+
+= 1.0.1 =
+* Code refactoring
+* Added translation support
 
 = 1.0 =
 * Initial Release

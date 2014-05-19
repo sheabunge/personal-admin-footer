@@ -2,7 +2,7 @@
 
 * __Requires at least:__ WordPress 2.3
 * __Tested up to:__ WordPress 3.9.1
-* __Stable version:__ [1.0](http://downloads.wordpress.org/plugin/personal-admin-footer.latest-stable.zip)
+* __Stable version:__ [1.0.1](http://downloads.wordpress.org/plugin/personal-admin-footer.latest-stable.zip)
 * __License:__ [MIT](http://opensource.org/licenses/mit-license.php)
 
 Welcome users to your dashboard with a personal 'Thank you for visiting My Site' in the footer
@@ -27,8 +27,3 @@ Personal Admin Footer will automagically pull your site name and home URL addres
 ## Screenshots
 
 ![The footer text displaying in the dashboard](screenshot-1.png)
-
-## Changelog
-
-### 1.0
-* Initial release
