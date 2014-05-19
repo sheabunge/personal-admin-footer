@@ -3,10 +3,10 @@ Contributors: bungeshea
 Donate link: http://bungeshea.com/donate/
 Tags: admin, footer, dashboard
 Requires at least: 2.8
-Tested up to: 3.5.1
+Tested up to: 3.9.1
 Stable tag: 1.0
 License: MIT
-License URI: http://opensource.org/licenses/mit-license.php
+License URI: http://opensource.org/licenses/MIT
 
 Welcome users to your dashboard with a personal 'Thank you for visiting My Site' in the footer
 
