@@ -11,7 +11,7 @@ Welcome users to your dashboard with a personal 'Thank you for visiting My Site'
 
 This plugin changes the default 'Thank you for creating with WordPress' in your footer area to a more personal 'Thank you for visiting My Site' on all admin pages except the Network Admin. There is no configuration; simply install and activate.
 
-Visit the [plugin homepage](http://bungeshea.com/plugins/personal-admin-footer/), or download it from [WordPress.org](http://wordpress.org/extend/plugins/personal-admin-footer).
+Visit the [plugin homepage](http://bungeshea.com/plugins/personal-admin-footer/), or download it from [WordPress.org](http://wordpress.org/plugins/personal-admin-footer).
 
 ## Installation
 
