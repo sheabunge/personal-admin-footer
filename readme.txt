@@ -3,7 +3,7 @@ Contributors: bungeshea
 Donate link: http://bungeshea.com/donate/
 Tags: admin, footer, dashboard
 Requires at least: 2.8
-Tested up to: 3.9.1
+Tested up to: 4.0
 Stable tag: 1.1.0
 License: MIT
 License URI: http://opensource.org/licenses/MIT
