@@ -6,7 +6,7 @@
  * Description: Changes the default 'Thank you for creating with WordPress' in your footer area to a more personal 'Thank you for visiting My Site' on all admin pages except the Network Admin.
  * Author:      Shea Bunge
  * Author URI:  http://bungeshea.com
- * Version:     1.1.0
+ * Version:     1.1.1
  * Licence:     MIT
  * License URI: http://opensource.org/licenses/MIT
  * Text Domain: personal-admin-footer

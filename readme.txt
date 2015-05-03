@@ -3,8 +3,8 @@ Contributors: bungeshea
 Donate link: http://bungeshea.com/donate/
 Tags: admin, footer, dashboard
 Requires at least: 2.8
-Tested up to: 4.1
-Stable tag: 1.1.0
+Tested up to: 4.2
+Stable tag: 1.1.1
 License: MIT
 License URI: http://opensource.org/licenses/MIT
 
@@ -15,6 +15,8 @@ Welcome users to your dashboard with a personal 'Thank you for visiting My Site'
 This plugin changes the default 'Thank you for creating with WordPress' in your footer area to a more personal 'Thank you for visiting My Site' on all admin pages except the Network Admin. There is no configuration; simply install and activate.
 
 Visit the [plugin homepage](http://bungeshea.com/plugins/personal-admin-footer/), or contribute to its development at [GitHub](https://github.com/bungeshea/personal-admin-footer/).
+
+Spanish translation provided by Andrew Kurtis from [WebHostingHub](http://www.webhostinghub.com/).
 
 == Installation ==
 
@@ -32,6 +34,9 @@ Personal Admin Footer will automagically pull your site name and home URL addres
 1. The new admin footer text
 
 == Changelog ==
+
+= 1.1.1 =
+* Added Spanish translation thanks to Andrew Kurtis from [WebHostingHub](http://www.webhostinghub.com/).
 
 = 1.1.0 =
 * Code refactoring
