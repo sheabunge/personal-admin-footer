@@ -2,13 +2,13 @@
 
 /**
  * Plugin Name: Personal Admin Footer
- * Plugin URI:  http://bungeshea.com/plugins/personal-admin-footer/
+ * Plugin URI:  https://bungeshea.com/plugins/personal-admin-footer/
  * Description: Changes the default 'Thank you for creating with WordPress' in your footer area to a more personal 'Thank you for visiting My Site' on all admin pages except the Network Admin.
  * Author:      Shea Bunge
- * Author URI:  http://bungeshea.com
- * Version:     1.1.1
+ * Author URI:  https://bungeshea.com
+ * Version:     1.1.2
  * Licence:     MIT
- * License URI: http://opensource.org/licenses/MIT
+ * License URI: https://opensource.org/licenses/MIT
  * Text Domain: personal-admin-footer
  * Domain Path: /languages
  */
