@@ -37,6 +37,9 @@ Personal Admin Footer will automagically pull your site name and home URL addres
 
 == Changelog ==
 
+= 1.2.0 =
+* Added admin setting field for changing the footer text
+
 = 1.1.2 =
 * Added Serbian translation thanks to [Ogi Djuraskovic from FirstSiteGuide.com](http://firstsiteguide.com)
 
