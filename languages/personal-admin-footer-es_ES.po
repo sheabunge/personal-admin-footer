@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Personal Admin Footer 1.0.1\n"
-"Report-Msgid-Bugs-To: http://wordpress.org/support/plugin/personal-admin-footer\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/personal-admin-footer\n"
 "POT-Creation-Date: 2014-05-19 09:38:18+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,8 +15,8 @@ msgstr ""
 "Language: es_ES\n"
 
 #: personal-admin-footer.php:27
-msgid "Thank you for creating with <a href=\"http://wordpress.org/\">WordPress</a>."
-msgstr "Gracias por crear con <a href=\"http://wordpress.org/\">WordPress</a>."
+msgid "Thank you for creating with <a href=\"https://wordpress.org/\">WordPress</a>."
+msgstr "Gracias por crear con <a href=\"https://wordpress.org/\">WordPress</a>."
 
 #: personal-admin-footer.php:28
 msgid "Thank you for visiting <a href=\"%1$s\">%2$s</a>."
@@ -27,8 +27,8 @@ msgid "Personal Admin Footer"
 msgstr "Personal Admin Footer"
 
 #. Plugin URI of the plugin/theme
-msgid "http://bungeshea.com/plugins/personal-admin-footer/"
-msgstr "http://bungeshea.com/plugins/personal-admin-footer/"
+msgid "https://sheabunge.com/plugins/personal-admin-footer/"
+msgstr "https://sheabunge.com/plugins/personal-admin-footer/"
 
 #. Description of the plugin/theme
 msgid "Changes the default 'Thank you for creating with WordPress' in your footer area to a more personal 'Thank you for visiting My Site' on all admin pages except the Network Admin."
@@ -39,5 +39,5 @@ msgid "Shea Bunge"
 msgstr "Shea Bunge"
 
 #. Author URI of the plugin/theme
-msgid "http://bungeshea.com"
-msgstr "http://bungeshea.com"
+msgid "https://sheabunge.com"
+msgstr "https://sheabunge.com"
