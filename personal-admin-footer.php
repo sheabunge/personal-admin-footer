@@ -68,6 +68,7 @@ class Personal_Admin_Footer {
 		if ( version_compare( $wp_version, '3.9', '<' ) ) {
 			$text = __( 'Thank you for creating with <a href="http://wordpress.org/">WordPress</a>.' );
 		} else {
+			/* translators: %s: https://wordpress.org/ */
 			$text = sprintf( __( 'Thank you for creating with <a href="%s">WordPress</a>.' ), __( 'https://wordpress.org/' ) );
 		}
 
