@@ -3,7 +3,7 @@ Contributors: bungeshea
 Donate link: https://sheabunge.com/donate/
 Tags: admin, footer, dashboard
 Requires at least: 2.8
-Tested up to: 5.0
+Tested up to: 5.6
 Requires PHP: 5.2
 Stable tag: 1.2.0
 License: MIT

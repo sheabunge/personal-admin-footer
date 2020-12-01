@@ -1,8 +1,8 @@
 # Personal Admin Footer
 
 * __Requires at least:__ WordPress 2.8
-* __Tested up to:__ WordPress 5.0
-* __Stable version:__ [1.1.2](https://downloads.wordpress.org/plugin/personal-admin-footer.latest-stable.zip)
+* __Tested up to:__ WordPress 5.6
+* __Stable version:__ [1.1.2](https://downloads.wordpress.org/plugin/personal-admin-footer.zip)
 * __License:__ [MIT](https://opensource.org/licenses/MIT)
 
 Welcome users to your dashboard with a personal 'Thank you for visiting My Site' in the footer
